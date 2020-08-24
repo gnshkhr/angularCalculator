@@ -1,0 +1,56 @@
+ h1 {
+     background-color: red;
+     background-image: linear-gradient(red, yellow);
+     text-align: center;
+ }
+ 
+ .calculator {
+     margin-left: 40%;
+     border: 2px solid;
+     border-radius: 5px;
+     width: 240px;
+     height: 310px;
+     background-color: rgb(205, 218, 221);
+ }
+ 
+ table,
+ td {
+     border-collapse: collapse;
+ }
+ 
+ td {
+     text-align: center;
+     font-weight: 600;
+     font-size: x-large;
+     padding: 5px;
+     width: 51px;
+     height: 38px;
+ }
+ 
+ .screen {
+     margin: 0px;
+     font-size: larger;
+     text-align: right;
+     height: 45px;
+     width: 225px;
+     background-color: #eff1;
+     color: aliceblue;
+ }
+ 
+ button {
+     width: 45px;
+     height: 34px;
+     border-radius: 8px;
+ }
+ 
+ button:hover {
+     color: brown;
+     background-color: rgba(255, 199, 17, 0.8);
+     font-weight: 900;
+ }
+ 
+ .equal-sign {
+     width: 50px;
+     height: 180px;
+     background-color: rgb(85, 140, 243);
+ }
